@@ -276,7 +276,9 @@ const ResultsPage = () => {
             className='w-1/2 mx-auto mt-8'
             data={getBarChartDataAndOptions().data} options={getBarChartDataAndOptions().options} />
 
-          <h2>Results by Party and Province</h2>
+          <h2
+          className='text-center text-2xl font-semibold mb-4'
+          >Results by Party and Province</h2>
 
           <Bar
             className='w-1/2 mx-auto mt-8'
